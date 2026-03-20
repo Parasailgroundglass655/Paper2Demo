@@ -33,7 +33,7 @@
 *OBS-Diff: Accurate Pruning for Diffusion Models in One-Shot*
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/OBS-DIFF--ACCURATE-PRUNING-FOR-DIFFUSION.mp4" width="80%" controls="controls" muted="muted" autoplay="autoplay"></video>
+  <video src="https://github.com/user-attachments/assets/ff280109-bc2b-46c7-9f85-30e1433b1cff" width="80%" controls="controls" muted="muted" autoplay="autoplay"></video>
   <br>
   <em>A real video abstract generated entirely by Paper2Demo.</em>
 </div>
